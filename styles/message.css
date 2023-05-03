@@ -1,0 +1,7 @@
+.custom-message .ant-message-notice-content {
+    @apply rounded-lg
+}
+.custom-message .ant-message-notice-content .ant-message-custom-content{
+    font-family: poppins-medium;
+    @apply flex items-center
+}

@@ -1,0 +1,25 @@
+.ant-input{
+    @apply !py-3 !pr-3 !pl-4 !border-white-100 !rounded-lg caret-primary-500 ;
+}
+.ant-input:hover{
+    @apply !border-primary-500
+}
+.ant-input:focus{
+    @apply !shadow-none !border-primary-500
+}
+/* checkbox */
+.ant-checkbox-wrapper{
+    @apply w-full
+}
+.ant-checkbox .ant-checkbox-inner{
+    @apply border-2 border-ink-300/30 rounded-md
+}
+.ant-checkbox:hover .ant-checkbox-inner{
+    @apply border-primary-500
+}
+.ant-checkbox-checked .ant-checkbox-inner{
+    @apply border-primary-500 bg-primary-500 after:top-45% after:left-20% after:border-none
+}
+.ant-checkbox-checked{
+    @apply after:!content-none
+}

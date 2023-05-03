@@ -1,0 +1,12 @@
+/* Common */
+.ant-tooltip .ant-tooltip-content .ant-tooltip-arrow{
+    @apply hidden
+}
+.ant-tooltip .ant-tooltip-content .ant-tooltip-inner{
+    box-shadow: 0px 0px 14px -4px rgba(0, 0, 0, 0.05);
+    @apply p-3 rounded-lg 
+}
+/* create-Assessment-level */
+.tooltip-level .ant-tooltip-content .ant-tooltip-inner{
+    @apply p-0 !w-400px overflow-hidden
+}

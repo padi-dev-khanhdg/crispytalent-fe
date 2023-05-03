@@ -1,0 +1,7 @@
+.bg-game{
+    background: url('../src/assets/image/Game\ Background.png'),url('../src/assets/image/Game\ Background\ 2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}

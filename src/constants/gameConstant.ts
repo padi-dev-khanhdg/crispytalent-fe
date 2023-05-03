@@ -1,0 +1,7 @@
+export const NOT_STARTED = 'Not started'
+export const IN_PROGRESS = 'In progress'
+export const COMPLETED='Completed'
+export const MEMORY = 'Memory challenge'
+export const VISUAL = 'Visual challenge'
+export const VERBAL = 'Verbal challenge'
+export const IT = 'C# Coding Challenge'

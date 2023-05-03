@@ -1,0 +1,6 @@
+.custom-toast-complete-test{
+    @apply bg-green-500 rounded-lg text-white-500
+}
+.custom-toast-complete-test .Toastify__close-button{
+    @apply text-white-500 opacity-100
+}

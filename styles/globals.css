@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "loading.css";
+@import "react-toastify/dist/ReactToastify.css";
+@import "font.css";
+@import "tooltip.css";
+@import "modal.css";
+@import "input.css";
+@import "select.css";
+@import "datePicker.css";
+@import "message.css";
+@import "playGame.css";
+@import 'toast.css';
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+  
+}
+.test{
+  
+    border-radius: 16px;
+    box-shadow: 0 7px 0 4px #000 ;
+    transition: all .3;
+
+}
+.test2:focus{
+    transform: scale(.8);
+}
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
